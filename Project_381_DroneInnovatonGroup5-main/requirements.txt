@@ -1,0 +1,16 @@
+# Core Web Framework
+Flask
+Flask-SocketIO
+Flask-Cors
+
+# Drone Control
+djitellopy
+
+# Computer Vision & Object Detection
+opencv-python
+numpy
+ultralytics  # For YOLOv8
+
+# Real-time Communication
+python-socketio
+python-engineio

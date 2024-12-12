@@ -1,0 +1,14 @@
+drone/
+├── models/
+│   ├── __init__.py
+│   ├── object_detector.py
+│   ├── video_streamer.py
+│   ├── drone_manager.py      # Will need updates
+│   └── patrol_drone.py       
+├── templates/
+│   └── index.html           # Will update with patrol UI/JS/CSS
+└── app.py                   # Will need updates for patrol routes
+
+pip install -r requirements.txt
+
+The key to a faster video stream is the size of the yolo file. nano(yolo8n.pt), small(yolo8s.pt), medium(yolo8m), large(yolo8l.pt) and extra large(yolo8x.pt) and the larger the file the longer and more resourse intensive the resources 
